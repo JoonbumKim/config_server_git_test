@@ -1,22 +1,28 @@
 greeting: "default greeting2"
 
+userconfig:
+    greeting: "userconfig default greeting"
 ---
 
 spring:
   profiles: dev
 
 greeting: "dev greeting2"
-
+userconfig:
+    greeting: "userconfig dev greeting"
 ---
 
 spring:
   profiles: stg
 
 greeting: "stg greeting2"
-
+userconfig:
+    greeting: "userconfig stg greeting"
 ---
 
 spring:
   profiles: prd
 
 greeting: "prd greeting2"
+userconfig:
+    greeting: "userconfig prd greeting"
