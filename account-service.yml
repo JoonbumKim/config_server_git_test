@@ -2,6 +2,8 @@ greeting: "default greeting2"
 
 userconfig:
     greeting: "userconfig default greeting"
+    greeting2: "userconfig default greeting2"
+    greeting3: 1001
 ---
 
 spring:
@@ -9,7 +11,9 @@ spring:
 
 greeting: "dev greeting2"
 userconfig:
-    greeting: "userconfig dev greeting"
+    greeting: "dev default greeting"
+    greeting2: "dev default greeting2"
+    greeting3: 1001
 ---
 
 spring:
@@ -17,7 +21,9 @@ spring:
 
 greeting: "stg greeting2"
 userconfig:
-    greeting: "userconfig stg greeting"
+    greeting: "stg default greeting"
+    greeting2: "stg default greeting2"
+    greeting3: 1001
 ---
 
 spring:
@@ -25,4 +31,6 @@ spring:
 
 greeting: "prd greeting2"
 userconfig:
-    greeting: "userconfig prd greeting"
+    greeting: "prd default greeting"
+    greeting2: "prd default greeting2"
+    greeting3: 1001
