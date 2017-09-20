@@ -1,22 +1,22 @@
-greeting: "account 안녕하세요"
+greeting: "default greeting"
 
 ---
 
 spring:
   profiles: dev
 
-greeting: "개발계"
+greeting: "dev greeting"
 
 ---
 
 spring:
   profiles: stg
-
-greeting: "검증계"
+  
+greeting: "stg greeting"
 
 ---
 
 spring:
   profiles: prd
 
-greeting: "운영계"
+greeting: "prd greeting"
